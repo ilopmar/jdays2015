@@ -1,0 +1,17 @@
+= JDays 2015
+
+This is the demo project for my talk http://jdays.se/[Grails and the real-time world] from JDays 2015 in Gothenburg.
+
+The project repo has the following tags:
+
+- photo: Demo integrating with the filesystem without pain and pushing pictures to browsers in real time using Websockets.
+
+WARNING: You have to install `image-magick` in your system for the photo conversion.
+
+- xmpp: Interact with an XMPP bot to check the weather and the stocks. Note that you have to configure the xmpp
+connection details in https://github.com/lmivan/jdays2015/blob/master/grails-app/conf/Config.groovy#L125[Config.groovy] file.
+
+The slides of the talk are available at
+http://www.slideshare.net/ilopmar/jdays-2015-grails-and-the-realtime-world[slideshare].
+
+You can contact me at lopez.ivan@gmail.com or via twitter https://twitter.com/ilopmar[@ilopmar]
