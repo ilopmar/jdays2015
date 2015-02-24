@@ -120,3 +120,15 @@ log4j.main = {
     debug 'grails.app.services.jdays'
 
 }
+
+jdays {
+    xmpp {
+        user = "MY-USER-ACCOUNT"
+        password = "MY-PASSWORD"
+        host = "XMPP-SERVER-IP" // talk.google.com
+        service = "MyApp"
+        port = 5222
+        friend = "MY-FRIEND-ACCOUNT"
+    }
+}
+
